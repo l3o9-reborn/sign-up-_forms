@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.signUpSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    
+
+}
+
+.sectionImage{
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.waterMark{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 40px;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.imageCreadit{
+    position: absolute;
+    bottom: 0.8rem;
+    color: white;
+    font-size: small;
+    font-weight: 400;
+}
+
+.formSection{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+
+    justify-content: center;
+
+}
+
+.discription{
+    line-height: 1.5;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 40px;
+}
+
+.signUpForm{
+    background-color: #fff;
+
+    
+    
+}
+
+.signUpForm h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.inputGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.classification{
+    display: flex;
+    align-items: flex-start;  
+}
+
+.classification .left, .right{
+    padding: 10px 0px;
+    margin-right: 20px;
+}
+
+.formBorder{
+    padding: 10px 40px 50px 40px;
+
+   box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+.inputGroup label{
+    letter-spacing: 2;
+    align-items: flex-start;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+.inputGroup input{
+    width: 15rem;
+    height: 1.7rem;
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+}
+.inputGroup input:focus{
+    border: 2px solid lightskyblue;
+}
+
+.inputGroup input[type='password']{
+    border: 2px solid rgb(250, 145, 145);
+}
+
+
+
+.bottomFormPart{
+    padding: 20px 0px 20px 40px;
+}
+.btn{
+    background: #596D48;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: #6B8E23;
+}
+
+.loginLink{
+    color: rgb(70, 70, 70);
+    font-weight: 600;
+}
+
+.loginLink a{
+    text-decoration: none;
+    padding: 10px;
+    color: #596D48;
+
+}
